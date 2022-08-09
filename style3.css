@@ -1,0 +1,269 @@
+@media only screen and (max-width: 390px) {
+
+    @font-face {
+        font-family: amatic-sc;
+        src: url(amatic-sc.bold.ttf);
+    }
+
+    body {
+        background: #FFC24D;
+        font-family: amatic-sc;
+
+
+    }
+
+    .ev {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .arrow {
+        position: absolute;
+        margin-left: -170px;
+        top: 20px;
+        background: rgb(67, 67, 67);
+        width: 10px;
+        height: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .title {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 60px
+    }
+
+    .brain1 {
+        position: absolute;
+        top: 127px;
+    }
+
+    .det {
+        position: absolute;
+        top: 286px;
+        margin: 0;
+    }
+
+    .brain2 {
+        position: absolute;
+        top: 384px;
+    }
+
+    .book {
+        position: absolute;
+        top: 503px;
+        margin: 0;
+    }
+
+    .may {
+        position: absolute;
+        top: 750px;
+        margin: 0;
+    }
+
+    .back1 {
+        position: absolute;
+        top: 156px;
+        width: 235px;
+        height: 120px;
+        border-radius: 20px;
+        background: gray;
+    }
+
+    .back2 {
+        position: absolute;
+        top: 373px;
+        width: 240px;
+        height: 120px;
+        border-radius: 20px;
+        background: rgb(176, 174, 174);
+    }
+
+    .back3 {
+        position: absolute;
+        top: 620px;
+        width: 240px;
+        height: 120px;
+        border-radius: 20px;
+        background: gray;
+    }
+
+
+
+    .popup {
+        background: rgb(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popupwindow {
+        position: relative;
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
+        background: #FFC24D;
+
+    }
+
+    input {
+        display: block;
+        margin: 20px auto;
+        font-family: amatic-sc;
+        text-align: center;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        font-size: 35px;
+        box-shadow: inset 3px 3px 3px rgba(54, 54, 54, 0.1);
+    }
+
+    .go {
+        display: block;
+        margin: 40px auto;
+        background: #FFE9B0;
+        border: none;
+        border-radius: 30px;
+        width: 280px;
+        height: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        font-size: 35px;
+        font-family: amatic-sc;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .brain1window {
+        display: block;
+        margin: 0px auto;
+        width: 90px;
+        background: gray;
+        border-radius: 5rem;
+    }
+
+    .brain2window {
+        display: block;
+        margin: 0px auto;
+        width: 90px;
+        background: rgb(176, 174, 174);
+        border-radius: 5rem;
+    }
+
+    .back1window {
+        display: flex;
+        margin: 25px auto;
+
+        border-radius: 100%;
+        width: 90px;
+        height: 78.88px;
+        background: gray;
+
+    }
+
+    .arrowwindow {
+
+        display: block;
+        margin: 5px 10px;
+        background: rgb(67, 67, 67);
+        width: 10px;
+        height: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .popup2 {
+        background: rgb(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popupwindow2 {
+        position: relative;
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
+        background: #FFC24D;
+    }
+
+    .arrowwindow2 {
+
+        display: block;
+        margin: 5px 10px;
+        background: rgb(67, 67, 67);
+        width: 10px;
+        height: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .popup3 {
+        background: rgb(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popupwindow3 {
+        position: relative;
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
+        background: #FFC24D;
+    }
+
+    .arrowwindow3 {
+
+        display: block;
+        margin: 5px 10px;
+        background: rgb(67, 67, 67);
+        width: 10px;
+        height: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .back3window {
+        width: 70px;
+        height: 70px;
+        background: gray;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50%;
+    }
+}

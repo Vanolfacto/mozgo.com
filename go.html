@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div class="ever">
+        <a href="avatar.html"><img class="arrow" src="Vector.png" alt=""></a>
+        <div class="backbra"></div>
+        <img class="bra" src="mozgo 2-05 1.png" alt="">
+
+        <h1 class="pojam">POJAM SE VIDI NA EKRANU:</h1>
+        <div class="ses">
+            <button id="button1" class="butt1">DA</button>
+            <button id="button2" class="butt2">NE</button>
+        </div>
+        <hr class="line1">
+        <h1 class="uzr">UZRAST</h1>
+
+        <select class="god">
+            <option value="1">1 GODINU</option>
+            <option value="2">2 GODINE</option>
+            <option value="3">3 GODINE</option>
+            <option value="4">4 GODINE</option>
+            <option value="5">5 GODINA</option>
+            <option value="6">6 GODINA</option>
+            <option value="7">7 GODINA</option>
+            <option value="8">8 GODINA</option>
+            <option value="9">9 GODINA</option>
+            <option value="10">10 GODINA</option>
+        </select>
+        <hr class="line2">
+        <h1 class="kat">KATEGORIJA</h1>
+        <select class="normal">
+            <option value="lako">lako</option>
+            <option value="normalno">normalno</option>
+            <option value="teško">teško</option>
+        </select>
+
+        <button class="start">POČNI IGRU</button>
+    </div>
+    <script>
+        document.getElementById('button1').addEventListener("click", function () {
+            document.querySelector(".butt1").style.background = "#DB5141";
+            document.querySelector(".butt2").style.background = "white";
+        })
+        document.getElementById('button2').addEventListener("click", function () {
+            document.querySelector(".butt2").style.background = "#DB5141";
+            document.querySelector(".butt1").style.background = "white";
+        })
+    </script>
+</body>
+
+</html>

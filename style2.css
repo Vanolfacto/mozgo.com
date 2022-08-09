@@ -1,0 +1,74 @@
+@media only screen and (max-width: 390px) {
+
+    @font-face {
+        font-family: amatic-sc;
+        src: url(amatic-sc.bold.ttf);
+    }
+
+    body {
+        background: #FFC24D;
+        font-family: amatic-sc;
+
+
+    }
+
+    h1 {
+        position: absolute;
+        font-family: amatic-sc;
+        top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+
+    .sin {
+        position: absolute;
+        top: 380px;
+        font-size: 32px;
+        text-align: center;
+
+    }
+
+    .mul {
+        position: absolute;
+        top: 689px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .squareo {
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: white;
+        border-radius: 20%;
+        top: 185px;
+        margin: 0px -100px;
+    }
+
+    .squaret {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: white;
+        border-radius: 20%;
+        top: 496px;
+        display: block;
+        margin: 0px -100px;
+    }
+
+    .ever {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cloud {
+        display: block;
+        position: absolute;
+        top: 235px;
+
+    }
+}
